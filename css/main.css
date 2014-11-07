@@ -129,12 +129,46 @@ textarea {
 #header ul.show{
     height: 30em;
 }
-/*add comments test*/
 
+#main-side-selection{
+    list-style-type: none;
+    width: 80%;
+    margin-top: 7em;
+}
 
+#main-side-selection li{
+    border-bottom: thin solid green;
+}
+
+#main-side-selection p{
+    opacity: 1;
+    overflow: hidden;
+    transition: opacity 1s ease;
+}
+
+#main-side-selection li p.hide{
+    opacity: 0;
+    display: none;
+}
+
+h2 i{
+    margin-right: 0.5em;
+}
 
 @media only screen and (min-width : 30em) {
 /*for any devices bigger than 30em*/
+
+#logo img{
+    width: 60%;
+    height: 10%;
+
+}
+
+#main-side-selection{
+    margin-top: 8em;
+}
+
+
 
 }
 
