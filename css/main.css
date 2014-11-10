@@ -99,10 +99,10 @@ textarea {
 
 #logo img{
     position: absolute;
-    height: 5em;
+    height: 10%;
     width: 60%;
     top: 1em;
-    left: 0.4em;
+    left: 1.4em;
 }
 
 #header-menu{
@@ -155,11 +155,15 @@ h2 i{
     margin-right: 0.5em;
 }
 
+#home-navigation{
+    display: none;
+}
+
 @media only screen and (min-width : 30em) {
 /*for any devices bigger than 30em*/
 
 #logo img{
-    width: 60%;
+    width: 42%;
     height: 10%;
 
 }
@@ -168,15 +172,119 @@ h2 i{
     margin-top: 8em;
 }
 
+#home-navigation{
+    display: none;
+}
+
 
 
 }
 
 
 
-
 @media only screen and (min-width : 50em) {
 /*for any devices bigger than 50em*/
+
+#logo img{
+    width: 22%;
+    height: 10%;
+
+}
+
+#home-navigation{
+    width: 100%;
+    float: right;
+    display: block;
+
+
+}
+
+#home-navigation>ul{
+    position: absolute;
+    margin-left: 55em;
+    top: 2.5em;
+
+}
+
+#home-navigation>ul>li{
+    display: inline-block;
+    width: 6.5em;
+    position: relative;
+    z-index: 100;
+    
+}
+
+#home-navigation>ul>li>a{
+    text-decoration: none;
+    border-top: thin solid gray;
+    padding-top: 1em;
+    display: block;
+
+}
+
+#home-navigation>ul>li>a:hover{
+    border-top: thin solid black;
+  
+}
+
+#home-navigation>ul ul{
+    display: none;
+    position: absolute;
+    padding-left: 0;
+    top: 60%;
+
+}
+
+#home-navigation>ul>li:hover ul{
+    display:block;
+}
+
+
+#home-navigation>ul ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: #eee;
+    border-top: thin solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+#home-navigation>ul ul li a:hover{
+    background-color: #E0E0E0;
+    
+}
+
+#side-selection{
+    display: none;
+}
+
+/*#home-slider{
+    width: 100%;
+    background-color: #006600;
+    height: 10em;
+    top: 10em;
+    position: relative;
+}*/
+
+
+#content{
+    width: 60%;
+    height: 50%;
+    top: 35em;
+    position: relative;
+    left: 3em;
+    outline: 3px red solid;
+}
+
+#quote{
+    outline: 3px red solid;
+}
+
+
+
+
+
 
 }
 
