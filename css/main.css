@@ -102,7 +102,7 @@ textarea {
     height: 10%;
     width: 60%;
     top: 1em;
-    left: 1.4em;
+    left: 1.8em;
 }
 
 #header-menu{
@@ -183,7 +183,9 @@ h2 i{
 
 
 @media only screen and (min-width : 50em) {
-/*for any devices bigger than 50em*/
+
+
+/* HomePage Begins */
 
 #logo img{
     width: 22%;
@@ -235,6 +237,12 @@ h2 i{
 
 }
 
+#home-navigation>ul ul li{
+    border-bottom: thin solid black;
+    
+}
+
+
 #home-navigation>ul>li:hover ul{
     display:block;
 }
@@ -269,7 +277,7 @@ h2 i{
 
 
 #content{
-    width: 60%;
+    width: 65%;
     height: 50%;
     top: 35em;
     position: relative;
@@ -279,7 +287,67 @@ h2 i{
 
 #quote{
     outline: 3px red solid;
+    width: 30%;
+    height: 40%;
+    float: right;
+    margin-top: 6%;
+    background-color: #D3D3D3;
+    display: block;
 }
+
+.pure-form h2{
+    font-size: 1.4em;
+    color: #006600;
+}
+
+.pure-form input[type]{
+    width: 11em;
+    height: 1.3em;
+    font-size: 1.8em;
+    box-shadow: none;
+    margin-bottom: 0.3em;
+
+}
+
+.pure-button {
+    background-color: #f95f3d;
+    color: #eee;
+    padding: 1em 2.2em;
+    margin-left: 42%;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
+::-webkit-input-placeholder {
+   font-size: 0.7em;
+   line-height: 1.6em;
+   color: #000;
+   padding-left: 0.5em;
+}
+
+
+:-moz-placeholder { /* Firefox 18- */
+   font-size: 0.7em;
+   line-height: 1.6em;
+   color: #000;
+   padding-left: 0.5em;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 0.7em;
+   line-height: 1.6em;
+   color: #000;
+   padding-left: 0.5em; 
+}
+
+:-ms-input-placeholder {  
+   font-size: 0.7em;
+   line-height: 1.6em;
+   color: #000;
+   padding-left: 0.5em;
+}
+
+
 
 
 
