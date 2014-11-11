@@ -184,6 +184,12 @@ h2 i{
 
 @media only screen and (min-width : 50em) {
 
+#container{
+    max-width: 80em;
+    margin: auto;
+    border:1px green solid;
+
+}
 
 /* HomePage Begins */
 
@@ -197,14 +203,17 @@ h2 i{
     width: 100%;
     float: right;
     display: block;
+    position: relative;
+    /*border:1px blue solid;*/
 
 
 }
 
 #home-navigation>ul{
     position: absolute;
-    margin-left: 55em;
+    /*margin-left: 55em;*/
     top: 2.5em;
+    right: 0;
 
 }
 
@@ -267,28 +276,18 @@ h2 i{
     display: none;
 }
 
-/*#home-slider{
-    width: 100%;
-    background-color: #006600;
-    height: 10em;
-    top: 10em;
-    position: relative;
-}*/
-
-
 #content{
-    width: 65%;
+    width: 68%;
     height: 50%;
-    top: 35em;
+    top: 33em;
     position: relative;
-    left: 3em;
-    outline: 3px red solid;
+    left: 0;
 }
 
 #quote{
-    outline: 3px red solid;
+/*    outline: 3px red solid;*/
     width: 30%;
-    height: 40%;
+    height: 70%;
     float: right;
     margin-top: 6%;
     background-color: #D3D3D3;
@@ -298,6 +297,7 @@ h2 i{
 .pure-form h2{
     font-size: 1.4em;
     color: #006600;
+    margin-left: 3%;
 }
 
 .pure-form input[type]{
@@ -306,6 +306,7 @@ h2 i{
     font-size: 1.8em;
     box-shadow: none;
     margin-bottom: 0.3em;
+    margin-left: 3%;
 
 }
 
@@ -313,7 +314,7 @@ h2 i{
     background-color: #f95f3d;
     color: #eee;
     padding: 1em 2.2em;
-    margin-left: 42%;
+    margin-left: 51%;
     box-shadow: none;
     margin-top: 1em;
 }
@@ -347,9 +348,34 @@ h2 i{
    padding-left: 0.5em;
 }
 
+#quote-content-link{
+    list-style-type: none;
+    width: 100%;
+    float: left;
+}
 
+#quote-content-link ul{
+    position: relative;
+  /*  display: block;*/
+}
 
+#quote-content-link a{
+    text-decoration: none;
+}
 
+#quote-content-link i{
+    margin-left: -6%;
+
+}
+
+.homepage-author{
+    float: left;
+    width: 100%;
+}
+
+.homepage-author p{
+    font-weight: bold;
+}
 
 
 
