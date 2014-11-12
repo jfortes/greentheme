@@ -187,7 +187,8 @@ h2 i{
 #container{
     max-width: 80em;
     margin: auto;
-    border:1px green solid;
+/*    border:1px green solid;*/
+    max-height: 35em;
 
 }
 
@@ -197,6 +198,16 @@ h2 i{
     width: 22%;
     height: 10%;
 
+}
+
+#homepage-image{
+    width: 100%;
+    display: block;
+    background-color: #004C00;
+    height: 19em;
+    outline: 1px red solid;
+    top: 13em;
+    position: relative;
 }
 
 #home-navigation{
@@ -279,17 +290,16 @@ h2 i{
 #content{
     width: 68%;
     height: 50%;
-    top: 33em;
+    top: -3em;
     position: relative;
     left: 0;
 }
 
 #quote{
-/*    outline: 3px red solid;*/
     width: 30%;
     height: 70%;
     float: right;
-    margin-top: 6%;
+    margin-top: -40%;
     background-color: #D3D3D3;
     display: block;
 }
@@ -376,6 +386,60 @@ h2 i{
 .homepage-author p{
     font-weight: bold;
 }
+
+
+
+
+
+
+/*
+[u="slides"]{
+    cursor: move; 
+    position: absolute; 
+    left: 0px; top: 0px; 
+    width: 600px; height: 300px; 
+    overflow: hidden;
+
+}*/
+
+
+        .captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+            font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(../img/browser-icons.png);
+        }
+
+
 
 
 
