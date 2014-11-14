@@ -1,4 +1,7 @@
 jQuery(document).ready(function ($) {
+
+
+    if($("#slider1_container").length > 0){
             //Reference http://www.jssor.com/development/slider-with-caption-jquery.html
             //Reference http://www.jssor.com/development/reference-ui-definition.html#captiondefinition
             //Reference http://www.jssor.com/development/tool-caption-transition-viewer.html
@@ -105,4 +108,6 @@ jQuery(document).ready(function ($) {
             //    $(window).bind("orientationchange", ScaleSlider);
             //}
             //responsive code end
-        });
+
+        }
+});

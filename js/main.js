@@ -12,27 +12,25 @@ $(function(){
 
 	$("#main-side-selection h2").on("click",function(){
 
-		$(this).next().prepareTransition().toggleClass("hide");
+		$(this).next().toggleClass("hide");
 
 	});
 
-	// $("#main-side-selection p").on("transitionend",function(){
+	$(".open-hide").addClass("hide");
+	$("#main-faq-selection h3").on("click",function(){
 
-	// 	if($(this).hasClass("hide") == false){
+		$(this).next().toggleClass("hide");
 
-	// 		$(this).prev().children("i")
-	// 			.removeClass("fa fa-leaf")
-	// 			.addClass("fa fa-leaf");
+		if($(this).next().hasClass("hide")){
+			$(this).find(".fa").removeClass("fa fa-angle-up").addClass("fa fa-angle-down");
+		}else{
+			$(this).find(".fa").removeClass("fa fa-angle-down").addClass("fa fa-angle-up");
+		}
 
-	// 	}else{
 
-	// 		$(this).prev().children("i")
-	// 			.removeClass("fa fa-leaf")
-	// 			.addClass("fa fa-leaf");
-	// 	}
+	});
 
-	// });
-
+	
 });
 
 
