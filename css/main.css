@@ -231,7 +231,7 @@ h2 i{
 #container{
     max-width: 80em;
     margin: auto;
-/*    border:1px green solid;*/
+    border:1px green solid;
     /*max-height: 35em;*/
 
 }
@@ -549,6 +549,200 @@ a.captionOrange:hover{
     margin-right: 2%;
 }
 
+/*navigation faq begins*/
+
+#home-navigation{
+    width: 100%;
+    float: right;
+    display: block;
+    position: relative;
+
+}
+
+#home-navigation-faq>ul{
+    position: absolute;
+    top: 2.5em;
+    right: 1em;
+    border: 1px blue solid;
+}
+
+#home-navigation-faq>ul>li{
+    display: inline-block;
+    width: 6.5em;
+    position: relative;
+    z-index: 100;
+    
+}
+
+#home-navigation-faq>ul>li>a{
+    text-decoration: none;
+    border-top: thin solid gray;
+    padding-top: 1em;
+    display: block;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #004C00;
+
+}
+
+#home-navigation-faq>ul>li>a:hover{
+    border-top: thin solid black;
+  
+}
+
+#home-navigation-faq>ul ul{
+    display: none;
+    position: absolute;
+    padding-left: 0;
+    top: 60%;
+
+}
+
+#home-navigation-faq>ul ul li{
+    border-bottom: thin solid gray;
+    
+}
+
+
+#home-navigation-faq>ul>li:hover ul{
+    display:block;
+}
+
+
+#home-navigation-faq>ul ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    border-top: thin solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-family: 'Open Sans', sans-serif;
+    color: #004C00;
+    font-weight: bold;
+
+}
+
+#home-navigation-faq>ul ul li a:hover{
+    background-color: #FAFAFA;
+    
+}
+
+/*navigation faq ends*/
+
+#faq-content{
+    width: 30%;
+    float: left;
+    display: block;
+    position: absolute;
+    outline: 1px red solid;
+    top: 9em;
+    margin-left: 0%;
+}
+
+#faq-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #006600
+
+}
+
+#faq-number{
+    width: 20%;
+    float: right;
+    display: block;
+    position: relative;
+    top: 9em;
+    right:0%;   
+
+}
+
+#faq-number p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #006600;
+}
+
+.faq-line-1{
+    width: 10%;
+    position: absolute;
+    top: 16em;
+    float: left;
+    border-bottom: thin solid gray;
+    border: 2px gray solid;
+}
+
+.faq-line-2{
+    width: 70%;
+    position: absolute;
+    top: 16em;
+    float: right;
+    border-bottom: thin solid gray;
+    right: 9%;
+    border: 2px gray solid;
+
+}
+
+#main-faq-selection{
+    width: 75%;
+    margin-left: 0%;
+    margin-left: 18%;
+    outline: 3px red solid;
+    position: relative;
+    top: -2em;
+
+}
+
+#main-faq-selection li{
+    border-bottom: none;
+}
+
+
+#faq-navigation{
+    width: 100%;
+    float: right;
+    display: block;
+    position: relative;
+    top: 13em;
+}
+
+
+#faq-navigation ul{
+    position: absolute;
+    padding-left: 0;
+    top: 60%;
+    list-style-type: none;
+
+}
+
+#faq-navigation ul li{
+    border-bottom: thin solid gray;
+    
+}
+
+
+#faq-navigation ul li a{ 
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    border-top: thin solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-family: 'Open Sans', sans-serif;
+    color: #004C00;
+    font-weight: bold;
+
+}
+
+#faq-navigation ul li a:hover{
+    background-color: #FAFAFA;
+    
+}
 
 
 
