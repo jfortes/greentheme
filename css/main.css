@@ -199,6 +199,12 @@ h2 i{
 
 }
 
+#home-navigation-faq{
+    display: none;
+}
+
+
+
 @media only screen and (min-width : 30em) {
 /*for any devices bigger than 30em*/
 
@@ -221,6 +227,7 @@ h2 i{
 }
 
 
+
 }
 
 
@@ -231,8 +238,8 @@ h2 i{
 #container{
     max-width: 80em;
     margin: auto;
-    border:1px green solid;
-    /*max-height: 35em;*/
+    border:1px transparent solid;
+ 
 
 }
 
@@ -559,11 +566,17 @@ a.captionOrange:hover{
 
 }
 
+#home-navigation-faq{
+    position: relative;
+    display: block;
+
+}
+
 #home-navigation-faq>ul{
     position: absolute;
     top: 2.5em;
     right: 1em;
-    border: 1px blue solid;
+
 }
 
 #home-navigation-faq>ul>li{
@@ -636,7 +649,6 @@ a.captionOrange:hover{
     float: left;
     display: block;
     position: absolute;
-    outline: 1px red solid;
     top: 9em;
     margin-left: 0%;
 }
@@ -666,33 +678,13 @@ a.captionOrange:hover{
     color: #006600;
 }
 
-.faq-line-1{
-    width: 10%;
-    position: absolute;
-    top: 16em;
-    float: left;
-    border-bottom: thin solid gray;
-    border: 2px gray solid;
-}
-
-.faq-line-2{
-    width: 70%;
-    position: absolute;
-    top: 16em;
-    float: right;
-    border-bottom: thin solid gray;
-    right: 9%;
-    border: 2px gray solid;
-
-}
 
 #main-faq-selection{
-    width: 75%;
+    width: 70%;
     margin-left: 0%;
     margin-left: 18%;
-    outline: 3px red solid;
     position: relative;
-    top: -2em;
+    top: -4em;
 
 }
 
@@ -706,7 +698,7 @@ a.captionOrange:hover{
     float: right;
     display: block;
     position: relative;
-    top: 13em;
+    top: 12.3em;
 }
 
 
@@ -715,6 +707,15 @@ a.captionOrange:hover{
     padding-left: 0;
     top: 60%;
     list-style-type: none;
+    width: 15%;
+    border-top: thin solid gray;
+
+}
+
+#faq-selection ul{
+    position: relative;
+    width: 75%;
+    border-top: thin solid gray;
 
 }
 
