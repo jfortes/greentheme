@@ -203,6 +203,9 @@ h2 i{
     display: none;
 }
 
+#contact-quote{
+    display: none;
+}
 
 
 @media only screen and (min-width : 30em) {
@@ -226,6 +229,10 @@ h2 i{
     margin-top: 25%;
 }
 
+#contact-quote{
+    display: none;
+}
+
 
 
 }
@@ -239,7 +246,7 @@ h2 i{
     max-width: 80em;
     margin: auto;
     border:1px transparent solid;
- 
+    list-style-type: none
 
 }
 
@@ -354,9 +361,11 @@ h2 i{
     width: 30%;
     height: 70%;
     float: right;
-    margin-top: -40%;
+    /*margin-top: 100%;*/
     background-color: #D3D3D3;
     display: block;
+    top: 20em;
+    outline: 2px green solid;
 }
 
 .pure-form h2{
@@ -645,7 +654,7 @@ a.captionOrange:hover{
 /*navigation faq ends*/
 
 #faq-content{
-    width: 30%;
+    width: 24%;
     float: left;
     display: block;
     position: absolute;
@@ -745,13 +754,183 @@ a.captionOrange:hover{
     
 }
 
+/*contact quote starts*/
+
+#quote{
+    width: 30%;
+    height: 70%;
+    float: right;
+    margin-top: -40%;
+    background-color: #D3D3D3;
+    display: block;
+
+}
+
+.pure-form h2{
+    font-size: 1.4em;
+    color: #006600;
+    margin-left: 3%;
+}
+
+.pure-form input[type]{
+    width: 11em;
+    height: 1.3em;
+    font-size: 1.8em;
+    box-shadow: none;
+    margin-bottom: 0.3em;
+    margin-left: 3%;
+
+}
+
+.pure-button {
+    background-color: #f95f3d;
+    color: #eee;
+    padding: 1em 2.2em;
+    margin-left: 51%;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
+::-webkit-input-placeholder {
+   font-size: 0.7em;
+   line-height: 1.6em;
+   color: #000;
+   padding-left: 0.5em;
+}
 
 
+:-moz-placeholder { /* Firefox 18- */
+   font-size: 0.7em;
+   line-height: 1.6em;
+   color: #000;
+   padding-left: 0.5em;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 0.7em;
+   line-height: 1.6em;
+   color: #000;
+   padding-left: 0.5em; 
+}
+
+:-ms-input-placeholder {  
+   font-size: 0.7em;
+   line-height: 1.6em;
+   color: #000;
+   padding-left: 0.5em;
+}
+
+#quote-content-link{
+    list-style-type: none;
+    width: 100%;
+    float: left;
+}
+
+#quote-content-link ul{
+    position: relative;
+  /*  display: block;*/
+}
+
+#quote-content-link a{
+    text-decoration: none;
+}
+
+#quote-content-link i{
+    margin-left: -6%;
+
+}
+
+#contact-quote{
+    width: 30%;
+    height: 70%;
+    float: right;
+    margin: -3%;
+    display: block;
+    margin-top: -24em;
+}
+
+.pure-form-contact input[type]{
+    width: 11em;
+    height: 1.3em;
+    font-size: 1.8em;
+    box-shadow: none;
+    margin-bottom: 0.3em;
+    margin-left: 3%;
+
+}
+
+.pure-button {
+    background-color: #f95f3d;
+    color: #eee;
+    padding: 1em 2.2em;
+    margin-left: 51%;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
+#message{
+    width: 9.8em;
+    margin-left: 0.4em;
+    height: 10em;
+    font-size: 2em;
+}
+
+#faq-street{
+    width: 15%;
+    height: 30%;
+    display: block;
+    margin-top: 20%;
+    font-size: 1em;
+    display: relative;
+    margin-left: 20%;
+    color:#004C00;
+
+}
+
+#greentheme-map{
+    height: 20em;
+    margin: 0px;
+    padding:0px;
+    top: 2em;
+    width: 50%;
+    margin-left: 17%;
+    position: relative;
+}
 
 
+#blog-content{
+    width: 24%;
+    float: left;
+    display: block;
+    position: absolute;
+    top: 11em;
+    margin-left: 0%;
+}
 
+#blog-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #006600
 
+}
 
+#blog-number{
+    width: 20%;
+    float: right;
+    display: block;
+    position: relative;
+    top: 11em;
+    right:0%;   
+
+}
+
+#blog-number p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #006600;
+}
 
 
 
