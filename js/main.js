@@ -30,6 +30,11 @@ $(function(){
 
 	});
 
+    $(".blogs-link>a").on("click", function(e){
+        e.preventDefault();
+        $(this).parent().prev().toggleClass("show");
+    });
+
 	
 });
 
@@ -156,7 +161,7 @@ var styles = [
 
 function initialize(){
 	var mapOptions = {
-		zoom: 17,
+		zoom: 15,
 		center: new google.maps.LatLng(-36.767163, 174.755491),
 		styles: styles
 	};
