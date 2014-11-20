@@ -302,6 +302,8 @@ h2 i{
 
 }
 
+
+
 @media only screen and (min-width : 30em) {
 /*for any devices bigger than 30em*/
 
@@ -332,6 +334,8 @@ h2 i{
 #content{
     display: none;
 }
+
+
 
 
 }
@@ -404,7 +408,8 @@ h2 i{
 }
 
 #home-navigation>ul>li>a:hover{
-    border-top: thin solid black;
+    border-top-width: 2.5px;
+    border-color: #3F6826;
   
 }
 
@@ -413,11 +418,12 @@ h2 i{
     position: absolute;
     padding-left: 0;
     top: 60%;
+    /*width: 7em;*/
 
 }
 
 #home-navigation>ul ul li{
-    border-bottom: thin solid gray;
+    border-bottom: thin solid green;
     
 }
 
@@ -712,7 +718,8 @@ a.captionOrange:hover{
 }
 
 #home-navigation-faq>ul>li>a:hover{
-    border-top: thin solid black;
+    border-top-width: 2.5px;
+    border-color: #3F6826;
   
 }
 
@@ -1035,6 +1042,7 @@ a.captionOrange:hover{
     font-size: 2em;
     margin: 0;
     color: #006600;
+    display: block;
 }
 
 #blog-topics{
