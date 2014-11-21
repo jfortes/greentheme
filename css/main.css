@@ -234,19 +234,23 @@ h2 i{
     display: none;
 }
 
-#faq-street{
+/*#faq-street{
     width: 80%;
     height: 50%;
     display: block;
-    margin-top: 20%;
+    margin-top: 30%;
     font-size: 1em;
-    display: relative;
+    position:: relative;
     margin-left: 10%;
     color:#004C00;
-    margin-top: 7em;
+   margin-top: 10em;
     font-size: 1.5em;
+   top: 13em;
+    outline: 2px red solid;
 
 }
+*/
+
 
 
 #contact-quote{
@@ -282,7 +286,7 @@ h2 i{
     width: 9.8em;
     margin-left: 5%;
     height: 10em;
-    font-size: 2em;
+    font-size: 2em; 
 }
 
 #faq-number{
@@ -466,17 +470,17 @@ h2 i{
     display: block;
 }
 
-#quote{
+/*#quote{
     width: 30%;
     height: 70%;
     float: right;
-    /*margin-top: 100%;*/
+    margin-top: 100%;
     background-color: #D3D3D3;
     display: block;
     margin-top: 50em;
-/*    outline: 2px green solid;*/
+ outline: 2px green solid;
     position: relative;
-}
+}*/
 
 .pure-form h2{
     font-size: 1.4em;
@@ -491,6 +495,8 @@ h2 i{
     box-shadow: none;
     margin-bottom: 0.3em;
     margin-left: 3%;
+    padding-left: 0.4em;
+    /*font size and padding*/
 
 }
 
@@ -869,12 +875,13 @@ a.captionOrange:hover{
 /*contact quote starts*/
 
 #quote{
-    width: 30%;
-    height: 70%;
-    float: right;
-    margin-top: -34%;
+    width: 23em;
+    height: 55%;
     background-color: #D3D3D3;
     display: block;
+    float: right;
+    margin-top: -32%;
+    position: relative;
 
 }
 
@@ -885,12 +892,15 @@ a.captionOrange:hover{
 }
 
 .pure-form input[type]{
-    width: 11em;
-    height: 1.3em;
-    font-size: 1.8em;
+    width: 20em;
+    height: 2em;
+    font-size: 1em;
     box-shadow: none;
     margin-bottom: 0.3em;
     margin-left: 3%;
+    padding-left: 2%;
+    font-family: arial;
+
 
 }
 
@@ -963,11 +973,12 @@ a.captionOrange:hover{
 
 .pure-form-contact input[type]{
     width: 11em;
-    height: 1.3em;
-    font-size: 1.8em;
+    height: 1.6em;
+    font-size: 1.5em;
     box-shadow: none;
     margin-bottom: 0.3em;
-    margin-left: 3%;
+    margin-left: 2%;
+    padding-left: 3%;
 
 }
 
@@ -975,16 +986,27 @@ a.captionOrange:hover{
     background-color: #f95f3d;
     color: #eee;
     padding: 1em 2.2em;
-    margin-left: 51%;
+    margin-left: 57%;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
+.pure-button-contact {
+    background-color: #f95f3d;
+    color: #eee;
+    padding: 1em 2.2em;
+    margin-left: 42%;
     box-shadow: none;
     margin-top: 1em;
 }
 
 #message{
-    width: 9.8em;
+    width: 11em;
     margin-left: 0.4em;
-    height: 10em;
-    font-size: 2em;
+    height: 16em;
+    padding-left: 0.4em;
+    font-size: 1.5em;
+    font-style: arial;
 }
 
 #faq-street{
@@ -992,20 +1014,34 @@ a.captionOrange:hover{
     height: 30%;
     display: block;
     margin-top: 20%;
+    /*padding-top: 10%;*/
     font-size: 1em;
     display: relative;
     margin-left: 20%;
     color:#004C00;
+    border:1px transparent solid;
 
 }
+
+#faq-street:before{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 260%;
+    max-width: 905px;
+    height: 1px;
+    background-color:gray;
+
+}
+
 
 #greentheme-map{
     height: 20em;
     margin: 0px;
     padding:0px;
-    top: 2em;
+    top: 4em;
     width: 50%;
-    margin-left: 17%;
+    margin-left: 21%;
     position: relative;
 }
 
@@ -1086,9 +1122,8 @@ a.captionOrange:hover{
     max-width: 905px;
     height: 1px;
     background-color:gray;
-
-
 }
+
 
 #blogs .text{
     font-family: 'Open Sans', sans-serif;
@@ -1122,6 +1157,10 @@ a.captionOrange:hover{
     color:#004C00;
 }
 
+.content-1, .content-2, .content-3{
+    color:#004C00;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                             
 
 
 
