@@ -234,24 +234,19 @@ h2 i{
     display: none;
 }
 
-/*#faq-street{
+#faq-street{
     width: 80%;
     height: 50%;
     display: block;
-    margin-top: 30%;
     font-size: 1em;
     position:: relative;
     margin-left: 10%;
     color:#004C00;
-   margin-top: 10em;
+    margin-top: 6em;
     font-size: 1.5em;
-   top: 13em;
-    outline: 2px red solid;
+    top: 13em;
 
 }
-*/
-
-
 
 #contact-quote{
     width: 30%;
@@ -273,11 +268,11 @@ h2 i{
 
 }
 
-.pure-button {
+.pure-button-contact{
     background-color: #f95f3d;
     color: #eee;
     padding: 1em 2.2em;
-    margin-left: 51%;
+    margin-left: 36%;
     box-shadow: none;
     margin-top: 1em;
 }
