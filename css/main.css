@@ -164,7 +164,7 @@ h2 i{
 #main-faq-selection{
     list-style-type: none;
     width: 80%;
-    margin-top: 8em;
+    margin-top: 10em;
 }
 
 #main-faq-selection li{
@@ -208,6 +208,28 @@ h2 i{
 
 #slider1_container{
     display: none;
+
+    position: relative; 
+    top: -6em; 
+    left: 20.5em; 
+    width: 600px; 
+    height: 304px; 
+    overflow: hidden; 
+    margin-left: 0%;
+
+}
+
+[u="slides"]{
+    /*display: none;*/
+
+    cursor: move; 
+    position: relative; 
+    left: 0px; 
+    top: 0px; 
+    width: 600px; 
+    height: 304px; 
+    overflow: hidden;
+    
 }
 
 #quote{
@@ -215,6 +237,10 @@ h2 i{
 }
 
 #home-navigation-faq{
+    display:none;
+}
+
+#contact-navigation{
     display:none;
 }
 
@@ -249,7 +275,7 @@ h2 i{
 }
 
 #contact-quote{
-    width: 30%;
+    width: 32%;
     height: 70%;
     float: left;
     margin-left: 5%;
@@ -259,12 +285,14 @@ h2 i{
 }
 
 .pure-form-contact input[type]{
-    width: 11em;
+    width: 11.2em;
     height: 1.3em;
-    font-size: 1.8em;
+    font-size: 1.5em;
     box-shadow: none;
     margin-bottom: 0.3em;
     margin-left: 5%;
+    padding-left: 3%;
+    color: gray;
 
 }
 
@@ -281,7 +309,9 @@ h2 i{
     width: 9.8em;
     margin-left: 5%;
     height: 10em;
-    font-size: 2em; 
+    font-size: 1.7em; 
+    padding-left: 3%;
+    color: gray;
 }
 
 #faq-number{
@@ -301,6 +331,13 @@ h2 i{
 
 }
 
+#contact-content{
+    display: none;
+}
+
+#contact-number{
+    display: none;
+}
 
 
 @media only screen and (min-width : 30em) {
@@ -463,6 +500,7 @@ h2 i{
     position: relative;
     left: 0;
     display: block;
+
 }
 
 /*#quote{
@@ -774,7 +812,25 @@ a.captionOrange:hover{
     margin-left: 0%;
 }
 
+#contact-content{
+    width: 30%;
+    float: left;
+    display: block;
+    position: absolute;
+    top: 9em;
+    margin-left: 0%;
+}
+
+
 #faq-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #006600
+
+}
+
+#contact-content p{
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     margin: 0;
@@ -792,7 +848,25 @@ a.captionOrange:hover{
 
 }
 
+#contact-number{
+    width: 20%;
+    float: right;
+    display: block;
+    position: relative;
+    top: 9em;
+  /*  right:0%; */  
+
+}
+
 #faq-number p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #006600;
+
+}
+
+#contact-number p{
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     margin: 0;
@@ -823,8 +897,26 @@ a.captionOrange:hover{
     top: 12.3em;
 }
 
+#contact-navigation{
+    width: 100%;
+    float: right;
+    display: block;
+    position: relative;
+    top: 12.3em;
+}
+
 
 #faq-navigation ul{
+    position: absolute;
+    padding-left: 0;
+    top: 60%;
+    list-style-type: none;
+    width: 15%;
+    border-top: thin solid gray;
+
+}
+
+#contact-navigation ul{
     position: absolute;
     padding-left: 0;
     top: 60%;
@@ -841,11 +933,22 @@ a.captionOrange:hover{
 
 }
 
+#contact-selection ul{
+    position: relative;
+    width: 75%;
+    border-top: thin solid gray;
+
+}
+
 #faq-navigation ul li{
     border-bottom: thin solid gray;
     
 }
 
+#contact-navigation ul li{
+    border-bottom: thin solid gray;
+    
+}
 
 #faq-navigation ul li a{ 
     text-decoration: none;
@@ -862,7 +965,30 @@ a.captionOrange:hover{
 
 }
 
+#contact-navigation ul li a{ 
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    border-top: thin solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-family: 'Open Sans', sans-serif;
+    color: #004C00;
+    font-weight: bold;
+
+}
+
+
 #faq-navigation ul li a:hover{
+    background-color: #FAFAFA;
+    
+}
+
+
+
+#contact-navigation ul li a:hover{
     background-color: #FAFAFA;
     
 }
@@ -895,7 +1021,7 @@ a.captionOrange:hover{
     margin-left: 3%;
     padding-left: 2%;
     font-family: arial;
-
+    color: gray;
 
 }
 
@@ -974,6 +1100,7 @@ a.captionOrange:hover{
     margin-bottom: 0.3em;
     margin-left: 2%;
     padding-left: 3%;
+    
 
 }
 
