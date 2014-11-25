@@ -314,13 +314,17 @@ h2 i{
     color: gray;
 }
 
-#faq-number{
+/*#faq-number{
     width: 70%;
     float: left;
     display: block;
     position: absolute;
     top: 56em;
     left: 5em; 
+}
+*/
+#faq-number{
+    display:block;
 }
 
 #faq-number p{
@@ -1253,6 +1257,7 @@ a.captionOrange:hover{
     margin: 0;
     color: #006600;
     height: 5em;
+    line-height: 168%;
     overflow: hidden;
 
 }
