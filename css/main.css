@@ -314,15 +314,6 @@ h2 i{
     color: gray;
 }
 
-/*#faq-number{
-    width: 70%;
-    float: left;
-    display: block;
-    position: absolute;
-    top: 56em;
-    left: 5em; 
-}
-*/
 #faq-number{
     display:block;
 }
@@ -342,6 +333,53 @@ h2 i{
 #contact-number{
     display: none;
 }
+#admin-number{
+    display: none;
+}
+
+#admin-content{
+    display: none;
+}
+
+#login-admin{
+    width: 30%;
+    height: 70%;
+    float: right;
+    margin: 28%;
+    display: block;
+    margin-top: 17em;
+    margin-right: 54%;
+}
+
+#login-admin h3{
+    color:#006600;
+    margin-left: 30%;
+}
+
+
+.pure-form-login input[type]{
+    width: 11em;
+    height: 1.6em;
+    font-size: 1.5em;
+    box-shadow: none;
+    margin-bottom: 0.3em;
+    margin-left: -7%;
+    padding-left: 3%;
+    font-style: arial;
+    color: gray;
+    font-size: 1.5em;
+}
+
+
+.pure-button-login {
+    background-color: #f95f3d;
+    color: #eee;
+    padding: 1em 2.2em;
+    margin-left: 19%;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
 
 
 @media only screen and (min-width : 30em) {
@@ -604,6 +642,8 @@ h2 i{
     font-weight: bold;
 }
 
+
+
 /*slider begins*/
 
 .captionOrange, .captionBlack{
@@ -816,6 +856,15 @@ a.captionOrange:hover{
     margin-left: 0%;
 }
 
+#admin-content{
+    width: 30%;
+    float: left;
+    display: block;
+    position: absolute;
+    top: 11em;
+    margin-left: 0%;
+}
+
 #contact-content{
     width: 30%;
     float: left;
@@ -833,6 +882,14 @@ a.captionOrange:hover{
     color: #006600
 
 }
+
+#admin-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #006600
+}
+
 
 #contact-content p{
     font-family: 'Open Sans', sans-serif;
@@ -852,13 +909,31 @@ a.captionOrange:hover{
 
 }
 
+#admin-number{
+    width: 20%;
+    float: right;
+    display: block;
+    position: relative;
+    top: 11em;
+  /*  right:0%; */  
+
+}
+
+#admin-number p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #006600;
+
+}
+
+
 #contact-number{
     width: 20%;
     float: right;
     display: block;
     position: relative;
     top: 9em;
-  /*  right:0%; */  
 
 }
 
@@ -1117,6 +1192,51 @@ a.captionOrange:hover{
     margin-top: 1em;
 }
 
+#login-admin{
+    width: 30%;
+    height: 70%;
+    float: right;
+    margin: 28%;
+    display: block;
+    margin-top: 17em;
+}
+
+#login-admin h3{
+    color:#006600;
+    margin-left: 21%;
+}
+
+
+
+.pure-form-login input[type]{
+    width: 11em;
+    height: 1.6em;
+    font-size: 1.5em;
+    box-shadow: none;
+    margin-bottom: 0.3em;
+    margin-left: -7%;
+    padding-left: 3%;
+}
+
+.pure-button {
+    background-color: #f95f3d;
+    color: #eee;
+    padding: 1em 2.2em;
+    margin-left: 57%;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
+.pure-button-login {
+    background-color: #f95f3d;
+    color: #eee;
+    padding: 1em 2.2em;
+    margin-left: 13%;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
+
 .pure-button-contact {
     background-color: #f95f3d;
     color: #eee;
@@ -1159,7 +1279,6 @@ a.captionOrange:hover{
     background-color:gray;
 
 }
-
 
 #greentheme-map{
     height: 20em;
