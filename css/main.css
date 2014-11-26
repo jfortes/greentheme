@@ -315,7 +315,7 @@ h2 i{
 }
 
 #faq-number{
-    display:block;
+    display:none;
 }
 
 #faq-number p{
@@ -545,17 +545,6 @@ h2 i{
 
 }
 
-/*#quote{
-    width: 30%;
-    height: 70%;
-    float: right;
-    margin-top: 100%;
-    background-color: #D3D3D3;
-    display: block;
-    margin-top: 50em;
- outline: 2px green solid;
-    position: relative;
-}*/
 
 .pure-form h2{
     font-size: 1.4em;
